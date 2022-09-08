@@ -29,7 +29,7 @@ text-align: right;
 background: #7e1f1f;
 padding: 10px 30px;
 border-bottom-left-radius: 18px ;
-
+z-index: 1;
 }
 
 .nav-links ul li{
@@ -42,7 +42,8 @@ border-bottom-left-radius: 18px ;
 .nav-links ul li a {
 color: #fff;
 text-decoration: none ;
-font-size: 18px;
+font-size: 20px;
+
 
 }
 
@@ -60,9 +61,10 @@ background:#7e1f1f ;
 padding:0 10%;
 display:flex;
 align-items:center;
-justify-content:flex-end;
+justify-content:space-between;
 position:relative;
 margin-top:5%;
+
 
 }
 
@@ -71,12 +73,14 @@ margin-top:5%;
 }
 
 .right-col{
-    flex-basis: 60%
+    flex-basis: 55%;
+    text-align: center;
+    
 
 }
 
 .left-col img{
-    width:80%;
+    width:85%;
     border-radius: 10px;
 
 }
@@ -111,6 +115,17 @@ opacity: 0.75;
 .footer .social a:hover {
 
 opacity: 0.9;
-font-size: 40px;
+font-size: 50px;
+
+}
+
+
+.about-me-text {
+
+    text-align: center;
+    margin: 10px 0 70px;
+    font-weight: 500;
+    padding: left 20px;;
+    
 
 }
