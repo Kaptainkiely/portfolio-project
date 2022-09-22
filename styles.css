@@ -2,8 +2,6 @@
 margin: 0;
 padding: 0;
 font-family: sans-serif;
-
-
 }
 
 nav{
@@ -11,9 +9,7 @@ nav{
     justify-content: right;
     align-items: center;
     position: relative;
-
 }
-
 
 .header{
 min-height: 100vh;
@@ -21,11 +17,7 @@ width: 100%;
 background: #000;
 color: #fff;
 position: relative;
-
 }
-
-
-
 
 .left-sidebar{
 width:20%;
@@ -34,7 +26,6 @@ position:absolute;
 left: 0;
 top:0;
 background:#7e1f1f ;
-
 }
 
 .row{
@@ -44,8 +35,6 @@ align-items:center;
 justify-content:space-between;
 position:relative;
 margin-top:5%;
-
-
 }
 
 .left-col{
@@ -55,70 +44,43 @@ margin-top:5%;
 .right-col{
     flex-basis: 55%;
     text-align: center;
-    
-
 }
 
 .left-col img{
     width:85%;
     border-radius: 10px;
-
 }
 
 .footer{
-
   padding: 40px 0;
   background-color: #000;
-
-
 }
 
-.footer .social{
-
+.footer .socials{
 text-align: center;
 padding: 25px;
 color: #fff;
-
-
 }
 
-.footer .social a{
-
+.footer .socials a{
 font-size: 32px;
 color: #fff;
 display: inline-block;
 margin: 0 8px;
 opacity: 0.75;
-
 }
 
-.footer .social a:hover {
-
+.footer .socials a:hover {
 opacity: 0.9;
 font-size: 50px;
-
 }
 
-
 .about-me-text {
-
     text-align: center;
     margin: 10px 0 70px;
     font-weight: 500;
-    padding: left 20px;;
-    
-
+    padding: left 20px;
 }
-
-.dot {
-    height: 205px;
-    width: 205px;
-    margin: 0  50px;
-    background-color: #bbb;
-    border-radius: 50%;
-    text-align: center;
-    display: inline-block;
-  }
 
   .navbar {
     overflow: hidden;
@@ -126,7 +88,6 @@ font-size: 50px;
     font-family: Arial;
     border-bottom-left-radius: 18px ;
   }
-
 
   .navbar a {
     float: left;
@@ -141,7 +102,6 @@ font-size: 50px;
     float: left;
     overflow: hidden;
   }
-
 
   .dropdown .dropbtn {
     font-size: 20px;  
@@ -159,7 +119,6 @@ font-size: 50px;
     background-color:#bd2121 ;
   }
   
-
   .dropdown-content {
     display: none;
     position: absolute;
@@ -186,3 +145,114 @@ font-size: 50px;
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .social {
+    position:fixed;
+    top: 200px;
+    
+  }
+  .social ul {
+    padding: 0px;
+    -webkit-transform: translate(-270px, 0);
+    -moz-transform: translate(-270px, 0);
+    -ms-transform: translate(-270px, 0);
+    -o-transform: translate(-270px, 0);
+    transform: translate(-270px, 0);
+  }
+  .social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align:right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li:hover {
+    -webkit-transform: translate(110px, 0);
+    -moz-transform: translate(110px, 0);
+    -ms-transform: translate(110px, 0);
+    -o-transform: translate(110px, 0);
+    transform: translate(110px, 0);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .social ul li:hover a {
+    color: rgb(251, 251, 251);
+  }
+  .social ul li:hover i {
+    color: #fff;
+    background: #bd2121;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+  .social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: #fff;
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  
+  body {
+    background: #25343F;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc; 
+    border-radius: 30px; 
+    margin-top: 4px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #7e1f1f;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a72828;
+  }
+  
+  .contact {
+    border-radius: 20px;
+    background-color: #000000;
+    margin-left: 300px;
+    margin-right: 200px;
+    padding: 100px;
+  }
+  
